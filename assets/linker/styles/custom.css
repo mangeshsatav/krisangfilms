@@ -1,0 +1,178 @@
+html,body{height:100%;}
+/*  carousel slider landing page */
+.carousel,.item,.active{
+    height:100%;
+}
+
+.fill{
+
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position:center;
+}
+.carousel-inner{height:100%;}
+
+
+
+/* navbar-custom-lp1 bottom navbar on slide*/
+
+.navbar-custom-lp1 {
+
+    background-color: deepskyblue;
+    text-transform: uppercase;
+}
+.navbar-custom-lp1 .navbar-brand {
+
+    color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-brand:hover, .navbar-custom-lp1 .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-text {
+    color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-nav > li > a {
+    padding-top: 20px;
+    color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-nav > li > a:hover, .navbar-custom-lp1 .navbar-nav > li > a:focus {
+    color: blue;
+    background-color: transparent;
+}
+.navbar-custom-lp1 .navbar-nav > .active > a, .navbar-custom-lp1 .navbar-nav > .active > a:hover, .navbar-custom-lp1 .navbar-nav > .active > a:focus {
+    color: blue;
+    background-color: transparent;
+}
+.navbar-custom-lp1 .navbar-nav > .open > a, .navbar-custom-lp1 .navbar-nav > .open > a:hover, .navbar-custom-lp1 .navbar-nav > .open > a:focus {
+    color: blue;
+    background-color: transparent;
+}
+.navbar-custom-lp1 .navbar-toggle {
+    border-color: deepskyblue;
+}
+.navbar-custom-lp1 .navbar-toggle:hover, .navbar-custom-lp1 .navbar-toggle:focus {
+    background-color:deepskyblue;
+}
+.navbar-custom-lp1 .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-collapse,
+.navbar-custom-lp1 .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-link {
+    color: #ffffff;
+}
+.navbar-custom-lp1 .navbar-link:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+
+
+
+/* nav bar on landing pagre slide 2*/
+.navbar-custom-lp2 {
+    background-color: #ff0000;
+
+}
+.navbar-custom-lp2 .navbar-brand {
+    color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-brand:hover, .navbar-custom-lp2 .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-text {
+    color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-nav > li > a:hover, .navbar-custom-lp2 .navbar-nav > li > a:focus {
+    color: #ffbbbc;
+    background-color: transparent;
+}
+.navbar-custom-lp2 .navbar-nav > .active > a, .navbar-custom-lp2 .navbar-nav > .active > a:hover, .navbar-custom-lp2 .navbar-nav > .active > a:focus {
+    color: #ffbbbc;
+    background-color: transparent;
+}
+.navbar-custom-lp2 .navbar-nav > .open > a, .navbar-custom-lp2 .navbar-nav > .open > a:hover, .navbar-custom-lp2 .navbar-nav > .open > a:focus {
+    color: #ffbbbc;
+    background-color: transparent;
+}
+.navbar-custom-lp2 .navbar-toggle {
+    border-color: #ff0000;
+}
+.navbar-custom-lp2 .navbar-toggle:hover, .navbar-custom-lp2 .navbar-toggle:focus {
+    background-color: #ff0000;
+}
+.navbar-custom-lp2 .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-collapse,
+.navbar-custom-lp2 .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-link {
+    color: #ffffff;
+}
+.navbar-custom-lp2 .navbar-link:hover {
+    color: #ffbbbc;
+}
+
+/* nav bar on landin pagre slide 3*/
+.navbar-custom-lp3 {
+    background-color: #191970;
+
+}
+.navbar-custom-lp3 .navbar-brand {
+    color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-brand:hover, .navbar-custom-lp3 .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-text {
+    color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-nav > li > a:hover, .navbar-custom-lp3 .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-custom-lp3 .navbar-nav > .active > a, .navbar-custom-lp3 .navbar-nav > .active > a:hover, .navbar-custom-lp3 .navbar-nav > .active > a:focus {
+    color: #ffffff  ;
+    background-color: transparent;
+}
+.navbar-custom-lp3 .navbar-nav > .open > a, .navbar-custom-lp3 .navbar-nav > .open > a:hover, .navbar-custom-lp3 .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-custom-lp3 .navbar-toggle {
+    border-color: #191970;
+}
+.navbar-custom-lp3 .navbar-toggle:hover, .navbar-custom-lp3 .navbar-toggle:focus {
+    background-color: #191970;
+}
+.navbar-custom-lp3 .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-collapse,
+.navbar-custom-lp3 .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-link {
+    color: #ffffff;
+}
+.navbar-custom-lp3 .navbar-link:hover {
+    color: #ffffff;
+}
+
+
+/* navbar custom on all site pages*/
+.navbar-custom{
+    height: 64px;
+    text-transform: uppercase;
+}
