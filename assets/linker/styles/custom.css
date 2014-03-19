@@ -13,14 +13,41 @@ html,body{height:100%;}
 }
 .carousel-inner{height:100%;}
 
+.carousel-caption h2,h5{
+    text-align: right;
+}
+
+  /* responsive css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* navbar-custom-lp1 bottom navbar on slide*/
 
 .navbar-custom-lp1 {
-
-    background-color: deepskyblue;
+     min-height: 75px;
+    background-color: #6dccf6;
     text-transform: uppercase;
+
+
 }
 .navbar-custom-lp1 .navbar-brand {
 
@@ -33,7 +60,8 @@ html,body{height:100%;}
     color: #ffffff;
 }
 .navbar-custom-lp1 .navbar-nav > li > a {
-    padding-top: 20px;
+
+    padding-top: 27px;
     color: #ffffff;
 }
 .navbar-custom-lp1 .navbar-nav > li > a:hover, .navbar-custom-lp1 .navbar-nav > li > a:focus {
@@ -49,10 +77,10 @@ html,body{height:100%;}
     background-color: transparent;
 }
 .navbar-custom-lp1 .navbar-toggle {
-    border-color: deepskyblue;
+    border-color: #6dccf6;
 }
 .navbar-custom-lp1 .navbar-toggle:hover, .navbar-custom-lp1 .navbar-toggle:focus {
-    background-color:deepskyblue;
+    background-color:#6dccf6;
 }
 .navbar-custom-lp1 .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -74,7 +102,9 @@ html,body{height:100%;}
 
 /* nav bar on landing pagre slide 2*/
 .navbar-custom-lp2 {
-    background-color: #ff0000;
+    min-height: 75px;
+    background-color: #f82510;
+    text-transform: uppercase;
 
 }
 .navbar-custom-lp2 .navbar-brand {
@@ -87,6 +117,7 @@ html,body{height:100%;}
     color: #ffffff;
 }
 .navbar-custom-lp2 .navbar-nav > li > a {
+    padding-top: 27px;
     color: #ffffff;
 }
 .navbar-custom-lp2 .navbar-nav > li > a:hover, .navbar-custom-lp2 .navbar-nav > li > a:focus {
@@ -102,10 +133,10 @@ html,body{height:100%;}
     background-color: transparent;
 }
 .navbar-custom-lp2 .navbar-toggle {
-    border-color: #ff0000;
+    border-color: #f82510;
 }
 .navbar-custom-lp2 .navbar-toggle:hover, .navbar-custom-lp2 .navbar-toggle:focus {
-    background-color: #ff0000;
+    background-color: #f82510;
 }
 .navbar-custom-lp2 .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -123,7 +154,9 @@ html,body{height:100%;}
 
 /* nav bar on landin pagre slide 3*/
 .navbar-custom-lp3 {
-    background-color: #191970;
+    min-height: 75px;
+    background-color: #002f55;
+    text-transform: uppercase;
 
 }
 .navbar-custom-lp3 .navbar-brand {
@@ -136,6 +169,7 @@ html,body{height:100%;}
     color: #ffffff;
 }
 .navbar-custom-lp3 .navbar-nav > li > a {
+    padding-top: 27px;
     color: #ffffff;
 }
 .navbar-custom-lp3 .navbar-nav > li > a:hover, .navbar-custom-lp3 .navbar-nav > li > a:focus {
@@ -151,10 +185,10 @@ html,body{height:100%;}
     background-color: transparent;
 }
 .navbar-custom-lp3 .navbar-toggle {
-    border-color: #191970;
+    border-color: #002f55;
 }
 .navbar-custom-lp3 .navbar-toggle:hover, .navbar-custom-lp3 .navbar-toggle:focus {
-    background-color: #191970;
+    background-color:#002f55;
 }
 .navbar-custom-lp3 .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -171,8 +205,74 @@ html,body{height:100%;}
 }
 
 
-/* navbar custom on all site pages*/
-.navbar-custom{
-    height: 64px;
+/* navbar custom for all site*/
+.navbar-custom {
+    min-height: 80px;
+    margin-top: 10px;
+    background-color: deepskyblue;
     text-transform: uppercase;
 }
+.navbar-custom .navbar-brand {
+     margin-top: -10px;
+    color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-custom .navbar-text {
+    color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+    padding-top: 20px;
+    color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    color: blue;
+    background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+    color: blue;
+    background-color: transparent;
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+    color: blue;
+    background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+    border-color: deepskyblue;
+}
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+    background-color:deepskyblue;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-custom .navbar-link {
+    color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* css for film.ejs*/
+
+.fixed-height-container
+{
+
+    height: 350px;
+    width:250px;
+    padding:3px;
+    background:#ffffff;
+}
+.content
+{
+    height:350px;
+    overflow:auto;
+    background:#fff;
+}
+
